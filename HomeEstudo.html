@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo HTML</title>
+</head>
+<body>
+    <h1>
+        O que é o html??
+    </h1>
+
+    <p>
+        <strong>HTML</strong> (Hypertext Markup Language) é uma linguagem de marcação usada para criar a estrutura básica de páginas da web.
+        <p id="Em">
+           <em><strong>Ou seja, não é uma linguagem de programação.</strong></em>
+        </p>
+    </p>
+
+    <h2> 
+        Comandos em HTML: 
+    </h2s>
+    <h3>
+        Índice
+        <ul>
+            <li><a href="#Texto">Texto</a></li>
+            <li><a href="#Links">Links</a></li>
+            <li><a href="#Listas">Listas</a></li>
+            <li><a href="#Imagens">Imagens</a></li>
+            <li><a href="#Formularios">Formulários</a></li>
+        </ul>
+    </h3>
+
+    <h2 id="Texto">
+        Texto
+    </h2>
+
+    <p>
+        <strong> H1 to H6 - </strong> Sãos os títulos (Os textos acima "O que é o html?" e "Comandos em HTML" São H1 e H2 respectivamente.)
+    </p>
+
+    <p>
+        <strong>P - </strong> O comando <strong>P</strong> significa um parágrafo, ou seja uma linha abaixo dos títulos que são os H's (O texto acima "Comandos em HTML é um H2").
+    </p>
+    
+    <p>
+        <Strong>Strong - </Strong> Deixa o texto em negrito (Assim como o <Strong>"Strong"</Strong>).
+    </p>
+
+    <p>
+        <Strong>Em - </Strong> Deixar o texto em Itálico assim como o texto <a href="#Em">acima</a> <em>"Ou seja, não é uma linguagem de programação"</em>
+    </p>
+
+    <h2 id="Links">Links:</h2>
+    
+    <p>
+        <Strong>A - </Strong> Este comando faz uma âncora para navegar até outra aba ou tela, resumindo ela faz uma criação de link para quando clicarmos irmos até o link <a href="Linkatividade1.html" target="_self">final</a>.
+        <ol>
+            <p>Obs: utilizar os targets (que significa nada mais nada menos que como iremos querer direcionar a aquele link):</p>
+            <li><strong>Blank</strong> = O link será aberto em uma nova janela ou guia do navegador. </li>
+            <li><strong>Self</strong> = O link ou formulário será aberto na mesma janela ou guia em que o link foi clicado ou o formulário foi enviado. Este é o comportamento padrão se o atributo target não for especificado. </li>
+            <li><Strong>parent</Strong> = O link ou formulário será aberto na janela pai (a janela que contém o quadro, se o documento estiver em um quadro). </li>
+            <li><strong>top</strong> = O link ou formulário será aberto na janela superior (a janela mais externa, ignorando os quadros).</li>
+            <li><strong>nome_da_janela</strong>Você também pode especificar o nome de uma janela específica (por exemplo, aberta anteriormente com JavaScript) como valor para target.</li>
+            <p><strong>Bônus: </strong> Consegue me responder qual das 5 foi utilizado no link acima??</p>
+        </ol>
+    </p>
+
+    <h2 id="Listas">Listas:</h2>
+
+    <p>
+        <strong>ol - </strong> Fazer uma lista ordenada, assim como a lista acima com 5 itens em ordem, lembrando que para cada item da lista terá de ser aberto o *li* 
+    </p>
+
+    <p>
+        <Strong>ul - </Strong> Fazer uma lista não ordenada sem ordem 1-2-3-4-5 por exemplo: (Sempre lembrar de utilizar o *li*)
+        <ul>
+            <li>teste</li>
+            <li>teste1</li>
+            <li>teste3</li>
+        </ul>
+    </p>
+
+    <p>
+        <strong>li - </strong> Item da lista, por exemplo todas essas listas acima eu tive de utilizar o comando li para cada item da lista 
+        <p>Exemplo: *li* teste */li*</p>
+    </p>
+
+    <H2 id="Imagens">Imagens</H2>
+    
+    <p>
+        <Strong>img - </Strong> Conseguimos inserir uma imagem no HTML
+        <ol>
+            <li><strong>src</strong> = Caminho de onde vem a imagem, ou esta diretamente na pasta do projeto ou o caminho da imagem </li>
+            <li><strong>alt</strong> = Caso a imagem dê error de carregamento, irá mostrar o texto que foi inserido aqui. </li>
+        </ol>
+        <img src="Copia_de_Logomarca_Batersistem.png" alt="BaterSistem o seu sistema de gestão de negócio.">
+    </p>
+
+    <h2 id="Formularios">Formulários</h2>
+
+    <input type="text" placeholder="Usuário">
+    <input type="password" placeholder="Senha">
+
+    <ol>
+        <li><strong>Type</strong> Tipo do dado que será inserido no Formulário.</li>
+        <li><strong>Placeholder</strong> Texto que vai mostrar dentro do campo.</li>
+    </ol>
+
+</body>
+</html>
